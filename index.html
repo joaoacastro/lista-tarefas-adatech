@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tarefas</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Comfortaa:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header></header>
+
+    <main>
+      <h1>Lista de Tarefas</h1>
+      <br />
+      <form id="todo-form">
+        <input
+          type="text"
+          placeholder="Informe a sua Tarefa..."
+          id="task-title-input"
+        />
+        <button id="add-task-button">+</button>
+      </form>
+      <br />
+      <section>
+        <ul id="todo-list"></ul>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <script src="dist/index.js"></script>
+  </body>
+</html>
